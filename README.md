@@ -64,10 +64,10 @@ Currently, the set of parameters is as follows:
 - Embed Model
 - LLM 
 
-If you manually change parameters, you can press the "Update Agent" button in order to update the agent.
+If you manually change parameters, you can press the "Update Agent" button to update the agent.
 
 ```{tip}
-If you don't see the `Update Agent` button, that's because you haven't created the agent yet. Please go to the previous "Home" page and complete the setup process.
+If you don't see the `Update Agent` button, that's because you haven't created the agent yet. Please complete the setup process at the previous "Home" page.
 ```
 
 We can always add more parameters to make this more "advanced" 🛠️, but thought this would be a good place to start.
@@ -76,7 +76,7 @@ We can always add more parameters to make this more "advanced" 🛠️, but thou
 
 Once your RAG agent is created, you have access to this page.
 
-This is a standard chatbot interface where you can query the RAG agent and it will answer questions over your data.
+This is a standard chatbot interface where you can query the RAG agent and it will answer questions about your data.
 
 It will be able to pick the right RAG tools (either top-k vector search or optionally summarization) in order to fulfill the query.
 
