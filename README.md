@@ -9,7 +9,7 @@ https://github.com/run-llama/rags/assets/4858925/a6204550-b3d1-4cde-b308-8d944e5
 RAGs is a Streamlit app that lets you create a RAG pipeline from a data source using natural language.
 
 You get to do the following:
-1. Describe your task (e.g. "load this web page") and the parameters you want from your RAG systems (e.g. "i want to retrieve X number of docs")
+1. Describe your task (e.g. "load this web page") and the parameters you want from your RAG systems (e.g. "I want to retrieve X number of docs")
 2. Go into the config view and view/alter generated parameters (top-k, summarization, etc.) as needed.
 3. Query the RAG agent over data with your questions.
 
@@ -17,7 +17,7 @@ This project is inspired by [GPTs](https://openai.com/blog/introducing-gpts), la
 
 ## Installation and Setup 
 
-Clone this project, go into the `rags` project folder. We recommend creating a virtual env for dependencies (`python3 -m venv .venv`).
+Clone this project, and go into the `rags` project folder. We recommend creating a virtual env for dependencies (`python3 -m venv .venv`).
 
 ```
 poetry install --with dev
