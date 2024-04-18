@@ -47,7 +47,7 @@ streamlit run 1_🏠_Home.py
 The app contains the following sections, corresponding to the steps listed above.
 
 ### 1. 🏠 Home Page
-This is the section where you build a RAG pipeline by instructing the "builder agent". Typically to setup a RAG pipeline you need the following components:
+This is the section where you build a RAG pipeline by instructing the "builder agent". Typically to set a RAG pipeline you need the following components:
 1. Describe the dataset. Currently, we support either **a single local file** or a **web page**. We're open to suggestions here! 
 2. Describe the task. Concretely this description will be used to initialize the "system prompt" of the LLM powering the RAG pipeline.
 3. Define the typical parameters for a RAG setup. See the below section for the list of parameters.
@@ -100,12 +100,12 @@ You can set the configuration either through natural language or manually for bo
     - Anthropic: ID is "anthropic:<model_name>" e.g. "anthropic:claude-2"
     - Replicate: ID is "replicate:<model_name>"
     - HuggingFace: ID is "local:<model_name>" e.g. "local:BAAI/bge-small-en"
-- **Embeddings**: Supports text-embedding-ada-002 by default, but also supports Hugging Face models. To use a hugging face model simply prepend with local, e.g. local:BAAI/bge-small-en.
+- **Embeddings**: Supports text-embedding-ada-002 by default, but also supports Hugging Face models. To use hugging face models simply prepend with local, e.g. local:BAAI/bge-small-en.
 
 
 ## Resources
 
-Running into issues? Please file a GitHub issue or join our [Discord](https://discord.gg/dGcwcsnxhU).
+Runnings into issues? Please file a GitHub issue or join our [Discord](https://discord.gg/dGcwcsnxhU).
 
 This app was built with [LlamaIndex Python](https://github.com/run-llama/llama_index).
 
